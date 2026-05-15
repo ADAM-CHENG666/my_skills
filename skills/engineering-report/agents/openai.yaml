@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Report"
+  short_description: "Generate engineering plans and implementation reports with strong code alignment"
+  default_prompt: "Use this skill to produce or update an engineering report for a module or agent system. First decide whether the task is Pre mode (execution plan) or Post mode (implementation report). Build the report around the 12-chapter structure, include the quick-location card at the top, record key Decisions, align every concrete claim with real code in Post mode, and explicitly cover testing, downstream integration, and observability."

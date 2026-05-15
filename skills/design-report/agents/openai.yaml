@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Report"
+  short_description: "Generate design reports with Pre/Post modes and causal-chain reasoning"
+  default_prompt: "Use this skill to produce or update a design report for an algorithm, agent, or system module. Start by deciding whether the task is in Pre mode (information collection and design questioning) or Post mode (final report generation). Enforce the 8-chapter causal chain, keep design content separate from engineering implementation details, require explicit Decision records for contested choices, and add semantic diagrams when system position or algorithm structure is hard to understand from text alone."
